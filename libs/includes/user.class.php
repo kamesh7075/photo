@@ -17,8 +17,28 @@ class user{
         $error = $conn->error;       // final work mean
     }
 
-//$conn->close();
-return $error;
+    //$conn->close();
+    return $error;
+    }
+    public static function authenticate()
+    {
+
+    } 
+    public static function setbio()
+    {
+
+    }
+    public static function getbio()
+    {
+
+    }
+    public static function setavatar()
+    {
+
+    }
+    public static function getavatar()
+    {
+        
     }
 }
 
