@@ -21,7 +21,7 @@ if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['phone
 <main class="flex-shrink-0">
     <div class="container">
         <h1>Signup Success</h1>
-        <p class="lead">Now you can login from <a href="login.php">here</a>.</p>
+        <p class="lead">Now you can login <a href="login.php">here</a>.</p>
     </div>
 </main>
 <?php
