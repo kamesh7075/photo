@@ -4,7 +4,7 @@
 include 'includes/session.class.php';
 include_once 'includes/mic.class.php';
 include 'includes/database.class.php';
-
+include 'includes/user.class.php';
 
 session::start();
 

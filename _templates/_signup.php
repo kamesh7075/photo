@@ -1,6 +1,6 @@
 <?
 include '../libs/load.php';
-include '../libs/includes/user.class.php';
+include ' libs/includes/user.class.php';
 $signup=false;
 //print_r($_POST);
 
@@ -17,12 +17,11 @@ if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['phone
 <?php
     if ($signup) {
         if (!$error) {
-            ?>
-<main class="container">
-    <div class="bg-light p-5 rounded mt-3">
+        ?>
+<main class="flex-shrink-0">
+    <div class="container">
         <h1>Signup Success</h1>
-        <p class="lead">Now you can login from <a href="/login.php">here</a>.</p>
-
+        <p class="lead">Now you can login from <a href="login.php">here</a>.</p>
     </div>
 </main>
 <?php
