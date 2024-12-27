@@ -20,14 +20,14 @@ class Database
           //echo "connection failed";
         }else
         {
-            printf("new connection establishing....");
+            //printf("new connection establishing....");
             Database::$conn = $connection;
             return Database::$conn;
         }
        }
        else
        {
-          print("returning old connection...");
+          //print("returning old connection...");
           return Database::$conn;
        }
     }
